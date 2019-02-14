@@ -77,7 +77,7 @@
 /******/ 	__webpack_require__.o = function(object, property) { return Object.prototype.hasOwnProperty.call(object, property); };
 /******/
 /******/ 	// __webpack_public_path__
-/******/ 	__webpack_require__.p = "";
+/******/ 	__webpack_require__.p = "dist";
 /******/
 /******/
 /******/ 	// Load entry module and return exports
@@ -90,10 +90,11 @@
 /*!******************!*\
   !*** ./index.js ***!
   \******************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
+/*! no exports provided */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
-eval("var moment = __webpack_require__(/*! moment */ \"./node_modules/moment/moment.js\");\nvar math = __webpack_require__(/*! mathjs */ \"./node_modules/mathjs/index.js\")\n\nvar myDate = moment().startOf('day').fromNow();\nconsole.log(myDate);\n\nconsole.log(math.sqrt(-4));\n\n//# sourceURL=webpack:///./index.js?");
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var moment__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! moment */ \"./node_modules/moment/moment.js\");\n/* harmony import */ var moment__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(moment__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var mathjs__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! mathjs */ \"./node_modules/mathjs/index.js\");\n/* harmony import */ var mathjs__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(mathjs__WEBPACK_IMPORTED_MODULE_1__);\n// var moment = require('moment');\n\n\nvar myDate = moment__WEBPACK_IMPORTED_MODULE_0__().startOf('day').fromNow();\nconsole.log(myDate);\nconsole.log(mathjs__WEBPACK_IMPORTED_MODULE_1__[\"sqrt\"](-4));\nvar name = \"Bob\";\nconsole.log(\"Hello \".concat(name, \", how are you \").concat(myDate, \"?\"));\n\n//# sourceURL=webpack:///./index.js?");
 
 /***/ }),
 
